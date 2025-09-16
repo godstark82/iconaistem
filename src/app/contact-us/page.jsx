@@ -28,7 +28,7 @@ export default function ContactUsPage() {
                     </div>
                     <div className="bg-gray-100 rounded-lg p-6 shadow flex flex-col gap-2">
                         <div className="font-bold text-lg flex items-center gap-2">✉️ Email</div>
-                        <div><a href="mailto: submit@icostem.com "> submit@icostem.com </a></div>
+                        <div><a href="mailto: submit@ICTAAA.com "> submit@ICTAAA.com </a></div>
                     </div>
                 </div>
                 {/* Contact Form and Map */}

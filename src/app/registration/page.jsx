@@ -41,7 +41,7 @@ const PriceCard = ({ price, label }) => {
 
 const registrationEmailTemplate = (form) => `Dear ${form.fullName},
 
-Thank you for registering for ICOSTEM 2025. We have received your registration with the following details:
+Thank you for registering for ICTAAA 2026. We have received your registration with the following details:
 
 Full Name: ${form.fullName}
 Email: ${form.email}
@@ -56,7 +56,7 @@ Payment ID: ${form.paymentIntentId}
 We look forward to your participation in the conference.
 
 Best regards,
-ICOSTEM 2025 Committee`;
+ICTAAA 2026 Committee`;
 
 export default function RegistrationPage() {
     const [form, setForm] = useState({
@@ -125,7 +125,7 @@ export default function RegistrationPage() {
                 },
                 body: JSON.stringify({
                     to: form.email,
-                    subject: "Registration Confirmation - ICOSTEM 2025",
+                    subject: "Registration Confirmation - ICTAAA 2026",
                     text: registrationEmailTemplate(form)
                 })
             });
@@ -240,8 +240,8 @@ export default function RegistrationPage() {
                                             <li>Enter the payment ID in the registration form below.</li>
                                             <li>
                                                 For any queries, contact{" "}
-                                                <a href="mailto:submit@icostem.com" className="text-primary underline">
-                                                    submit@icostem.com
+                                                <a href="mailto:submit@ICTAAA.com" className="text-primary underline">
+                                                    submit@ICTAAA.com
                                                 </a>
                                             </li>
                                         </ul>
