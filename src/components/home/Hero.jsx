@@ -6,12 +6,12 @@ export default function Hero() {
                 <div className="flex flex-col items-center justify-center py-8 md:py-12">
                     <div className="flex flex-col items-center gap-2 md:gap-4">
                         <span className="text-5xl md:text-3xl font-bold text-[#E13A59] tracking-tight leading-none" style={{ letterSpacing: '-0.04em' }}>
-                            IC-RISEM <span className="text-2xl md:text-3xl font-bold text-white">2025</span>
+                            IC-TAAA <span className="text-2xl md:text-3xl font-bold text-white">2025</span>
                         </span>
                     </div>
                     <div className="mt-2 md:mt-4 max-w-5xl">
                         <span className="text-lg md:text-2xl lg:text-5xl text-white font-medium tracking-wide text-center block">
-                            International Conference on Research and Innovation in Science, Engineering and Management
+                            International Conference on Technological Advances in AI and it's Applications
                         </span>
                     </div>
                     <br />

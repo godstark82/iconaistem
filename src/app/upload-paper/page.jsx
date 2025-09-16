@@ -8,12 +8,12 @@ import PaperUploadSchema from "../../schema/paper-upload-schema";
 // Email templates
 const successEmailTemplate = (name, title) => `Dear ${name},
 
-Thank you for submitting your paper "${title}" to ICOSTEM 2025.
+Thank you for submitting your paper "${title}" to ICTAAA 2026.
 
-Your submission has been received and will be reviewed by our committee. You will be notified of the review outcome by September 15, 2025.
+Your submission has been received and will be reviewed by our committee. You will be notified of the review outcome by September 15, 2026.
 
 Best regards,
-ICOSTEM 2025 Committee`;
+ICTAAA 2026 Committee`;
 
 export default function UploadPaperPage() {
     const [form, setForm] = useState({
@@ -85,7 +85,7 @@ export default function UploadPaperPage() {
                 },
                 body: JSON.stringify({
                     to: form.authorEmail,
-                    subject: "Paper Submission Successful - ICOSTEM 2025",
+                    subject: "Paper Submission Successful - ICTAAA 2026",
                     text: successEmailTemplate(form.authorName, form.paperTitle)
                 })
             });
@@ -189,8 +189,8 @@ export default function UploadPaperPage() {
                     </div>
                     <p className="text-center font-bold">
                         *If you face any technical issues during submission, please email your paper directly to{' '}
-                        <a href="mailto:submit@icostem.com">
-                            submit@icostem.com
+                        <a href="mailto:submit@ICTAAA.com">
+                            submit@ICTAAA.com
                         </a>
                     </p>
 
@@ -213,7 +213,7 @@ export default function UploadPaperPage() {
                     <div className="text-center mb-6">
                         <h2 className="text-lg font-bold mb-2">Thank You for Your Submission</h2>
                         <p className="mb-2">
-                            Your paper has been successfully submitted to Sustainable Innovations in Management in the Digital Transformation Era (ICOSTEM 2025), hosted by Arya College, Jaipur.
+                            Your paper has been successfully submitted to Sustainable Innovations in Management in the Digital Transformation Era (ICTAAA 2025), hosted by Arya College, Jaipur.
                         </p>
                         <p className="mb-2">
                             We appreciate your contribution and look forward to reviewing your work.<br />

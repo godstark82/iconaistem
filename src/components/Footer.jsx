@@ -20,7 +20,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center gap-2">
                                 <FaEnvelope className="text-primary" />
-                                <span><a href="mailto: submit@icostem.com "> submit@icostem.com</a></span>
+                                <span><a href="mailto: submit@ICTAAA.com "> submit@ICTAAA.com</a></span>
                             </li>
                             <div className="flex space-x-4 pt-2">
                                 <a href="https://www.facebook.com/aryacollegein/" target="_blank" rel="noopener noreferrer" className="text-light/80 hover:text-primary transition-colors">
@@ -113,7 +113,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="border-t border-light/20 mt-8 pt-8 text-center text-light/80">
-                    <p className="text-sm">ICOSTEM &copy; {new Date().getFullYear()} All rights reserved.</p>
+                    <p className="text-sm">ICTAAA &copy; {new Date().getFullYear()} All rights reserved.</p>
                 </div>
             </div>
         </footer>

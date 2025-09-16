@@ -1,12 +1,11 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
-import LayoutWrapper from '../components/LayoutWrapper';
 import Layout from '../components/layout/Layout';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'ICOSTEM 2025',
+  title: 'ICTAAA 2026',
   description: 'Sustainable Innovations in Management in the Digital Transformation Era',
 };
 

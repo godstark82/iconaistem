@@ -28,7 +28,7 @@ export async function POST(req: Request) {
     const textWithAttribution = `${text}${attribution}`;
 
     const mailOptions = {
-      from: `ICOSTEM <${process.env.EMAIL_USER}>`,
+      from: `ICTAAA <${process.env.EMAIL_USER}>`,
       to,
       subject,
       text: textWithAttribution
